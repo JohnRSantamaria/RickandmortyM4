@@ -1,0 +1,78 @@
+.containerDetail
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+.LinkDetailCard h2
+{
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.LinkDetailCard h2:hover
+{
+  font-weight: bolder;
+}
+
+.ContainerDetailCard
+{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  color: #232323;
+  border-radius: 16px;
+  padding: 1em;
+}
+
+.ContainerDetailCard h1
+{
+  color: #FFF;
+  text-shadow: 
+    0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 60px rgba(255, 255, 255, 0.45),
+    0 0 110px rgba(255, 255, 255, 0.25),
+    0 0 100px rgba(255, 255, 255, 0.1);
+}
+.ContainerDetailCard h1:hover
+{
+  color: #fff;
+  text-shadow:
+  0 0 5px #FFF,
+  0 0 10px #FFF,
+  0 0 15px #FFF,
+  0 0 20px #49ff18,
+  0 0 30px #49FF18,
+  0 0 40px #49FF18,
+  0 0 55px #49FF18,
+  0 0 75px #49ff18;
+}
+.ContainerDetailCard h3 
+{
+  color: #fff;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.ContainerDetailCard img 
+{
+  border: thick solid #FFF;
+  border-radius: 15px;
+  width: 600px;
+  height: auto;
+}
+
+.ContainerDetailCard .infCards
+{
+  width: 600px;
+  height: auto;
+}
+
+.ContainerDetailCard .infCards h3
+{
+  padding: 1rem;
+}
