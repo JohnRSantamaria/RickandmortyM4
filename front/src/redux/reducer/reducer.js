@@ -6,13 +6,12 @@ const inicialState = {
   myFavorites: [],
   allCharacters: [],
   myFavoritesDB: []
-
 }
 
 const rootReducer = (state = inicialState, { type, payload }) => {
 
   switch (type) {
-    case ADD_FAVORITE:
+    case ADD_FAVORITE: 
       return {
         ...state,
         myFavorites: [...state.myFavorites, payload],

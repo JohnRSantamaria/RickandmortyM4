@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Cards from "../Cards/Cards";
-import { useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import { orderCards, filterCards } from "../../redux/actions/actions";
 
 const Favorites = ({ myFavoritesDB }) => {
@@ -16,6 +16,9 @@ const Favorites = ({ myFavoritesDB }) => {
     dispatch(orderCards(e.target.value))
   }
 
+  // const selector = useSelector();  
+
+  
 
   return (
     <div>
@@ -39,6 +42,7 @@ const mapStateToProps = (state) => {
   return {
     myFavorites: state.myFavorites,
     myFavoritesDB: state.myFavoritesDB
+
   };
 };
 

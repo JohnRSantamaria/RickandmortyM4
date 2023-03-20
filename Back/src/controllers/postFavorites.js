@@ -1,4 +1,4 @@
-const {favorites} = require("../utils/data");
+const {favorite} = require('../DB_connection');
 
 const postFavorites = (data) => {
   //Todo

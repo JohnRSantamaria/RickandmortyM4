@@ -1,7 +1,6 @@
 const axios = require("axios");
 const URL =  "https://rickandmortyapi.com/api/character"; 
 
-const {Character} = require("../models/Character");
 
 const getApiData = async (URL, n = 5) => {
   try {
@@ -33,10 +32,8 @@ const getRequestedData = (results) => {
   return  requestedData;
 };
 
-
-const saveApiData = ()=> { 
-  const information = getApiData(URL, 5);
-  
+const saveApiData = async ()=> { 
+  const information = getApiData(URL, 5);  
   return information;
 }
 
